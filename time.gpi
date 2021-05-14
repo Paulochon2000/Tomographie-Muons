@@ -1,0 +1,7 @@
+set terminal png
+set output "time.png"
+set title "variation du temps d'acquisition en fonction du nombres de muons"
+set xlabel "nombres de muons"
+set ylabel "Temps en secondes"
+plot "time.txt" using 1:2
+

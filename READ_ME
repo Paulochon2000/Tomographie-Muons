@@ -1,0 +1,23 @@
+Deux fichiers permettent de moduler la simulation :
+
+donne.txt : regroupe quasiment toutes les variables importantes sur le systeme. Elles peuvent y etre modifier .
+
+
+objet.txt : regroupe les donnees sur l'objet. Ici, le programme n'est pas base sur la taille de l'objet. De ce fait les parametres sur la largeur et la longueur ne sont pas utilises.
+
+
+
+
+
+
+Ce document regroupe les commandes a effectuer.
+
+make all : permet de compiler l'essemble des fichiers et les execute.
+
+make running : si la compilation a deja ete faite, permet lancer un "run" : execute les programmes.
+
+make open_flux : fait apparaitre les graphiques concernant le flux.
+
+make open_angles : fait apparaitre les graphiques concernant les angles.
+
+make open_time : fait apparaitre un graphique pour le temps en fonction du nombre de particules generees pour un certain nombre de plan ( detaille dans le document donne.txt).

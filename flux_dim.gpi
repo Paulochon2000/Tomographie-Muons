@@ -1,0 +1,7 @@
+set terminal png
+set output "flux_dimension.png"
+set title "variation du taux de comptage en fonction de la largeur du detecteur"
+set xlabel "largeur en cm"
+set ylabel "taux de comptage"
+plot "flux_dim.txt" using 1:2 title "longueur vaut 1cm"
+

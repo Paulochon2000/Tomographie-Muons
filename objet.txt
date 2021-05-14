@@ -1,0 +1,11 @@
+3	1	5
+l	L	e
+
+
+\\ l est la largeur de l'objet [cm]
+
+\\ L est la longueur de l'objet [cm]
+
+\\ e est l'epaisseur de l'objet [cm]
+
+\\ ici la longueur et la largeur ne sont pas pris en compte dans les programmes  car l'objet est un rectangle infini coupant la moitie du plan. ( c'est pour mieux observer l'impact de l'objet sur les angles)

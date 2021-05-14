@@ -1,0 +1,7 @@
+set terminal png
+set output "flux_espacement.png"
+set title "variation du taux de comptage en fonction de l'espacement entre les plans"
+set xlabel "espacement en cm"
+set ylabel "taux de comptage"
+plot "donne_flux.txt" using 1:2 
+

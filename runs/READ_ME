@@ -1,0 +1,41 @@
+Ce document decrit l'ensemble des document *.txt :
+
+time.txt : regroupe les temps pour un certain nombre de particules.
+
+x.txt : regroupe les coordonnees selon l'axe x pour chaque plan et chaque particules avec un objet.
+
+y.txt : regroupe les coordonnees selon l'axe y pour chaque plan et chaque particules avec un objet.
+
+x_sans_obj.txt : regroupe les coordonnees selon l'axe x pour chaque plan et chaque particules sans objet.
+
+y_sans_obj.txt : regroupe les coordonnees selon l'axe y pour chaque plan et chaque particules sans objet.
+
+x.pixels : regroupe les coordonnees selon l'axe x pour chaque plan et chaque particules avec un objet apres descretisation suite au pixel.
+
+y.pixels : regroupe les coordonnees selon l'axe y pour chaque plan et chaque particules avec un objet apres descretisation suite au pixel.
+
+x_sans_obj.pixels : regroupe les coordonnees selon l'axe x pour chaque plan et chaque particules sans objet apres descretisation suite au pixel.
+
+y_sans_obj.pixels : regroupe les coordonnees selon l'axe y pour chaque plan et chaque particules avec un objet apres descretisation suite au pixel.
+
+pixel.txt : regroupe les caracteristiques du pixel.
+
+premier_pixels.txt : regroupe les coordonnees apres descretisation suite au pixel pour le premier plan pour chaque particules, avec un objet.
+
+premier_pixels_sans_obj.txt : regroupe les coordonnees apres descretisation suite au pixel pour le premier plan pour chaque particules, sans objet.
+
+dernier_pixels.txt : regroupe les coordonnees apres descretisation suite au pixel pour le dernier plan pour chaque particules, avec un objet.
+
+dernier_pixels_sans_obj.txt : regroupe les coordonnees apres descretisation suite au pixel pour le dernier plan pour chaque particules, sans objet.
+
+flux_dim.txt : regroupe les taux de comptage pour differentes largeurs des plans de detections.
+
+flux_espace.txt : regroupe les taux de comptage pour differents espacements entre les plans.
+
+angle.txt : regroupe les angles phi et theta pour chaque particules et leur erreur apres reconstruction, avec un objet.
+
+angle_simule.txt regroupe les angles phi et theta simules pour chaques particules, avec un objet.
+
+angles_simule_sans_obj.txt : regroupe les angles phi et theta simules pour chaque particules, sans objet.
+
+angles_rec_sans_obj.txt : regroupe les angles phi et theta et leur erreur pour chaque particules apres reconstruction des traces, sans objet.

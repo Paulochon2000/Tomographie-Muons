@@ -1,0 +1,20 @@
+10000      5    3	     0.5 	 2 	         0.1 	   100     100   
+P	   N    demi_l       demi_L	d_plan       intervalle    n       m
+
+
+// P est le nombre de muons genere.
+
+
+// N est le nombre de plan de detection.
+
+//demi_l et demi_L sont les dimensions du plan de detection divisees par deux. [cm]
+
+//d_plan est la distance entre l'objet et le point de generation des muons.  [cm]
+
+
+//intervalle est la ditance entre deu plans de detection [cm]
+
+
+//n est le nombre de capteurs sur la largeur.
+
+//m est le nombre de capteurs sur la longueur.
